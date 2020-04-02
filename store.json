@@ -1,0 +1,34 @@
+{
+  "StoreInformation" : [
+    {
+      "productName" : "An inflatable cat horn",
+      "price" : 6.02,
+      "details" : "You probably already think your cat is quite the unicorn, but you can easily make it official with this accessory that definitely won't get you clawed to oblivion.",
+      "image" : "inflatable-cat-horn.jpeg"
+    },
+    {
+      "productName" : "A dog wig",
+      "price" : 9.57,
+      "details" : "Dogs deserve to feel every bit as stylish as their human counterparts. And fortunately, this wig can help them achieve that goal.",
+      "image" : "small-dog-wig.jpeg"
+    },
+    {
+      "productName" : "A pizza hat",
+      "price" : 11.62,
+      "details" : "Finally, you can indulge in everyone's life-long desire of wearing pizza atop their head. Beware the sprinkled parmesan as you nod or shake your head, though—some might mistake it for dandruff.",
+      "image" : "A-pizza-hat.jpeg"
+    },
+    {
+      "productName" : "A hand squirrel",
+      "price" : 6.50,
+      "details" : "While it's all well and good to have a variety of puppets at your disposal, few things rival this strangely-realistic hand squirrel.",
+      "image" : "hand-squirrel.jpeg"
+    },
+    {
+      "productName" : "A tennis ball with a head strap",
+      "price" : 5.28,
+      "details" : "While billed as a way to improve your reflexes as a boxer, it seems like an equally good way to get hit in the face with a tennis ball over and over.",
+      "image" : "boxing-reflex-ball.jpeg"
+    }
+  ]
+}

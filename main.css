@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    font-size: 30px;
+}
+
+body {
+    font-family: 'Bellota Text', cursive;
+    background-color: #66f022;
+}
+
+.container {
+    color: black;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Bellota', cursive;
+}
+
+p,
+li {
+    font-size: 1rem;
+}
+
+.container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
