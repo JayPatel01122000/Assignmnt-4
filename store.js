@@ -1,11 +1,11 @@
 //JavaScript Document
 
 //access the JSON file using XHR object
-let requestURL = "https://jaypatel01122000.github.io/Lab-4/store.json";
+let requestURL = "https://jaypatel01122000.github.io/Assignmnt-4/store.json";
 
 //function to access the information and fetch api
 function storeInformation(url) {
-
+    //use the fetch api and use the function and catch the error
     fetch(url).then(function(response) {
         return response.json();
     }).then(function(json) {
@@ -27,7 +27,7 @@ function Information(jsonObj) {
         let p1 = document.createElement("p");
         let p2 = document.createElement("p");
 
-        img.setAttribute("src", "https://jaypatel01122000.github.io/Lab-4/Image/" + StoreInformation[i].image);
+        img.setAttribute("src", "https://jaypatel01122000.github.io/Assignmnt-4/Image/" + StoreInformation[i].image);
         img.setAttribute("alt", StoreInformation[i].image);
         h2.textContent = StoreInformation[i].productName;
         p1.textContent = "price" + StoreInformation[i].price;
@@ -41,4 +41,4 @@ function Information(jsonObj) {
     }
 }
 
-storeInformation("https://jaypatel01122000.github.io/Lab-4/store.json", Information);
+storeInformation("https://jaypatel01122000.github.io/Assignmnt-4/store.json", Information);
